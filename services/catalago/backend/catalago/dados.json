@@ -1,0 +1,23 @@
+[
+  {
+    "id": "svc-001",
+    "nome": "Consulta de unidades",
+    "status": "ativo",
+    "unidade": "Operações",
+    "responsavel": "Equipe Aurora"
+  },
+  {
+    "id": "svc-002",
+    "nome": "Catálogo de projetos",
+    "status": "manutencao",
+    "unidade": "Plataforma",
+    "responsavel": "Equipe Horizonte"
+  },
+  {
+    "id": "svc-003",
+    "nome": "Consulta de conectividade",
+    "status": "ativo",
+    "unidade": "Redes",
+    "responsavel": "Equipe Ipê"
+  }
+]

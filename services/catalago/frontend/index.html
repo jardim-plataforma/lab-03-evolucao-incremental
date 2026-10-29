@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jardim • Catálogo de serviços</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">JARDIM PLATAFORMA / LAB 01</p>
+    <h1>Catálogo de serviços</h1>
+    <p>Consulte os dados e detalhes de cada recurso.</p>
+
+    <form id="consulta">
+      <label for="recurso">Identificador do recurso</label>
+      <div>
+        <input id="recurso" value="svc-001" required>
+        <button type="submit">Consultar</button>
+      </div>
+    </form>
+
+    <p>Experimente svc-001, svc-002 ou svc-003.</p>
+
+    <section aria-live="polite">
+      <h2 id="titulo">Aguardando consulta</h2>
+      <p id="estado"></p>
+      <dl id="detalhes" hidden>
+        <dt>Unidade</dt>
+        <dd id="unidade"></dd>
+        <dt>Responsável</dt>
+        <dd id="responsavel"></dd>
+      </dl>
+      <pre id="resposta"></pre>
+    </section>
+
+    <footer>
+      Dados fictícios. A integração legada continua usando o contrato v1.
+    </footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

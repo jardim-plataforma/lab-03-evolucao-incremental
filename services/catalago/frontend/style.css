@@ -1,0 +1,22 @@
+:root{font:17px/1.6 system-ui,sans-serif;color:#20392d;background:#f1f5ef}body{margin:0}main{max-width:780px;margin:6vh auto;padding:30px}.eyebrow{font-size:12px;letter-spacing:.16em;color:#55735d}h1{font-size:clamp(30px,6vw,46px);line-height:1.15}form,section{background:white;border:1px solid #cbd9c9;border-radius:16px;padding:25px;margin-top:28px}label{display:block;margin-bottom:12px}form div{display:flex;gap:12px;flex-wrap:wrap}input,button{padding:12px;border:1px solid #adc0ad;border-radius:8px;font:inherit}input{min-width:0;flex:1}button{background:#244e37;color:white;cursor:pointer}pre{overflow:auto;font-size:14px}footer{margin-top:35px;font-size:13px;color:#55735d}
+
+dl {
+  display: grid;
+  grid-template-columns: minmax(110px, 150px) 1fr;
+  gap: 8px 16px;
+  padding: 16px 0;
+  border-top: 1px solid #cbd9c9;
+}
+
+dt {
+  font-weight: 600;
+}
+
+dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+[hidden] {
+  display: none !important;
+}
